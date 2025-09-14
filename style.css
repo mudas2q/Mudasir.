@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 3rem;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+/* Logo Image */
+header > .logo-sec a > img {
+  height: auto;
+  width: 7rem;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+.input-div > #input {
+  padding: 0.7rem;
+  padding-left: 1rem;
+  width: 34rem;
+  font-size: 1rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.336) 0px 0px 0px 1px;
+}
+
+.input-div > .search-icon {
+  box-shadow: 0px -1px 0px 0px rgba(27, 31, 35, 0.336),
+    1px 0px 0px 0px rgba(27, 31, 35, 0.336),
+    0px 1px 0px 0px rgba(27, 31, 35, 0.336);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid 0px 1px 0px 0px rgba(27, 31, 35, 0.336);
+  padding: 0.1rem 0.5rem;
+}
+
+.search-icon > img {
+  width: 2rem;
+  height: auto;
+  background-color: #ffffff;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.right-content-navbar {
+  display: flex;
+  align-items: center;
+  float: right;
+  gap: 1rem;
+}
+
+.upload-video-btn > button {
+  padding: 0.4rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1.2rem;
+  font-weight: 600;
+  background: #fff;
+  color: #2d2e32;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.459) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.308) 0px 1px 4px 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.upload-video-btn > button:hover {
+  color: white;
+  background-color: black;
+}
+
+.upload-video-btn button > img {
+  width: 1.5em;
+  height: auto;
+  margin-right: 0.3rem;
+}
+
+.user-account-image > img {  
+  width: 3.1rem;
+  height: auto;
+}
+
+/* Left Sidebar ( CONTAINER ) */ 
+.left-sidebar {  
+  width: 14rem;
+  height: auto;
+  padding: 0.4rem 0.2rem 0rem 0.8rem;
+  background-color: #ffffff;
+  color: #252525;
+}
+
+.left-sidebar p {   
+  padding: 0.6rem 2.9rem 0.6rem 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #202020;
+  font-size: 0.94rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.left-sidebar p:hover {
+  background-color: rgb(236, 236, 236);
+  border-radius: 0.4rem;
+  font-weight: bold;
+}
+
+.left-sidebar > h4 {
+  padding: 1rem 0px 0.5rem 0px;
+  font-size: 1.1rem;
+  color: rgb(39, 39, 39);
+  margin-left: 0.3rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+/* For ( You > ) Arrow Sign */
+.left-sidebar > h4 > span {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-left: 0.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.left-sidebar p > img {
+  width: 1.4rem;
+  height: auto;
+  margin-right: 0.9rem;
+}
+.left-sidebar a {
+  list-style: none;
+  text-decoration: none;
+  background-color: rgb(236, 236, 236);
+  border-radius: 0.4rem;
+  font-weight: 500;
+  color: #202020;
+}
+/* for Home */
+#clickable-para {
+  background-color: rgb(236, 236, 236);
+  border-radius: 0.4rem;
+  font-weight: bolder;
+}
+
+.left-sidebar hr {
+  margin-top: 0.6rem;
+}
+
+.setting-p {
+  margin-top: 0.5rem;
+}
+
+/* MAIN */
+main {
+  display: flex;
+}
+
+.content-start > .top-links {
+  margin-bottom: 1rem;
+}
+
+/* ul tag */
+.top-links > .video-links {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  list-style: none;
+}
+
+.video-links > li a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.95rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  background-color: rgb(236, 236, 236);
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  margin-left: 1.3rem;
+}
+
+.video-links > li {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.video-links li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.video-links > li:first-child{
+  color: white;
+  font-size: 0.95rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  background-color: black;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  margin-left: 1.3rem;
+}
+
+/* Video Section Container Div */
+.videos-section {
+  display: flex;
+  width: 0px;
+}
+
+/* All 3 Videos Styling*/
+.videos-section video {
+  width: 22rem;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* All Container same 3 div for 3 videos */
+.container-video {
+  padding: 1rem 0.8rem;
+  padding-bottom: 1.7rem;
+  border-radius: 12px;
+}
+
+.container-video:hover {
+  box-shadow: rgba(117, 117, 117, 0.329) 0px 0px 8px 3px;
+}
+
+.user-profile {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.user-profile > img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+}
+
+.user-profile > img:hover{
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -2px, rgba(255, 255, 255, 0.08) 0px 2px 0px inset;
+}
+.user-profile > p {
+  margin-left: 0.6rem;
+  line-height: 1.3rem;
+  font-weight: bold;
+  color: rgb(26, 26, 26);
+  width: 17rem;
+  font-size: 0.97rem;
+}
+
+/* image of 3 dot Option Sign */
+.options-icon-hover > img {
+  width: 2.1rem;
+  height: auto;
+}
+
+.options-icon-hover > img:hover {
+  background-color: rgb(207, 207, 207);
+  border-radius: 50%;
+}
+
+/* Views, and channel name */  
+.channel-name > p {   
+  margin-left: 3rem;
+  margin-top: 0.1rem;
+  color: rgb(70, 70, 70);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 0.96rem;
+}
+
+.channel-name > p:hover{  
+  color: black;
+  font-weight: 500;
+}
+
+.channel-name p > img {   
+  width: 1rem;
+  height: auto;
+  vertical-align: middle;
+}
+
+.views {
+  font-size: 0.91rem;
+}
+
+.shadow {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(236, 160, 160, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+/* For Audio Title */
+.trending {
+  display: flex;
+  text-align: center;
+}
+.trending > h3 {
+  margin-top: 2.8rem;
+  margin-left: 1.1rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.65rem;
+}
+.one-audio {
+  padding: 0px 1.2rem 1.2rem 1.2rem;
+  margin-left: 1.9rem;
+  margin-bottom: 2.8rem;
+  border-radius: 25px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.one-audio > h3 {
+  color: rgb(31, 31, 31);
+  text-align: center;
+  position: relative;
+  right: 7rem;
+  top: 3.3rem;
+  font-size: 1.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.audio-container1 {
+  display: flex;
+  align-items: end;
+}
+.poster-audio1 img {
+  width: 7rem;
+  height: auto;
+  border-radius: 11px;
+}
+.audio-container1 > audio {
+  width: 50rem;
+  margin-left: 1rem;
+}
+
+/* for feedback */
+.image-whatsapp > h1{
+  margin-top: 1.5rem;
+}
+.image-whatsapp > h2{
+  margin-top: 0.7rem;
+}
+.image-whatsapp img {
+  width: 14rem;
+  height: auto;
+}
+.image-whatsapp {
+  text-align: center;
+}
